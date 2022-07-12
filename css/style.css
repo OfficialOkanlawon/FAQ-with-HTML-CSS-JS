@@ -1,0 +1,44 @@
+.question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.accordion {
+    width: 40%;
+    margin: 0 auto;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.question-answer {
+    border-bottom: 1px solid black;
+}
+
+.answer {
+    display: none;
+}
+
+.up-arrow {
+    display: none;
+}
+
+.show-text .answer {
+    display: block;
+}
+
+.show-text .up-arrow {
+    display: inline;
+}
+
+.show-text .down-arrow {
+    display: none;
+}
